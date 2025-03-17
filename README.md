@@ -1,1 +1,8 @@
-# GAT-Mamba
+# The official repository for GAT-Mamba
+# The code is coming soon (The paper below is under review)
+# Tittle: GAT-Mamba: A Novel Model for Spatio-Temporal Traffic Prediction based on Graph Attention Networks and Selective State Space Models
+Dongyi He, Yuanquan Gao, He Yan,Bin Jiang*
+School of Artificial Intelligence, Chongqing University of Technology, Chongqing (China)
+
+# ABSTRACT
+Accuratetrafficpredictioniscrucialforintelligenttransportationsystems,supporting effective traffic management, congestion reduction, and informed urban planning. However, traditional models often fail to adequately capture the intricate spatio-temporal dependencies present in traffic data. To overcome these limitations, we introduce GAT-Mamba, a novel approach that integrates Graph Attention Networks (GAT) with Selective State Space Models (Mamba). The GAT component uses a self-attention mechanism to dynamically adjust the influence of nodes within the traffic network, enabling adaptive spatial dependency modeling based on real-time conditions. Simultaneously, the Mamba module efficiently models long-term temporal dynamics without the heavy computational cost of conventional recurrent architectures. Extensive experiments on several benchmark traffic datasets, including METR-LA, PEMS-BAY, PEMS03, PEMS04, PEMS07, and PEMS08, show that GAT-Mamba consistently outperforms existing state-of-the-art models across different prediction horizons, achieving up to a 17.28% reduction in Mean Absolute Error (MAE) compared to baseline models. Ablation studies highlight the critical contributions of both the spatial and temporal components, emphasizing their complementaryroleinimprovingpredictionaccuracy. Inconclusion,theGAT-Mamba model sets a new standard in traffic forecasting, offering a powerful tool for next- generationtraffic management andurban planning.
